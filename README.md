@@ -25,3 +25,13 @@ venv\Scripts\activate          # (Windows)
 pip install -r requirements.txt
 python train_model.py
 python app.py
+
+
+
+---
+
+## Author
+
+*Moyinoluwa Idowu*  
+📧 moyinoluwa.idowu24@gmail.com  
+🔗 [GitHub-(https://github.com/Emmanoel24)]
