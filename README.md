@@ -95,8 +95,8 @@ diabetes-prediction-webapp/
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Emmanoel24/diabetes-prediction-webapp.git
-cd diabetes-prediction-webapp
-
+cd diabetes-prediction-webapp 
+```
 
 ✨ Author
 
