@@ -1,37 +1,98 @@
-# Diabetes Prediction Web App
+# 🩺 Diabetes Prediction Web App
 
-A simple machine learning web application that predicts diabetes risk based on patient health data. Built with Flask, Scikit-learn, HTML/CSS, and JavaScript, the app provides real-time predictions and a dynamic UI.
+A machine learning-powered web application that predicts whether a person is *Diabetic* or *Not Diabetic* based on key health parameters.  
+Built with *Flask, **scikit-learn, and a clean, responsive **HTML/CSS/JavaScript* frontend — this project demonstrates the full end-to-end ML pipeline: data preprocessing, model training, deployment, and user interaction.
 
----
-
-## Features
-
-- Machine learning model trained on Nigerian Diabetes dataset  
-- Preprocessing pipeline with StandardScaler  
-- Flask backend serving a simple HTML/CSS/JS frontend  
-- Interactive UI with reset button  
-- Real-time prediction without page reload using fetch()  
+🌐 *Live Demo:* [Try it here](https://diabetes-prediction-webapp-z4u7.onrender.com)
 
 ---
 
-## Quick Start
+## 🚀 Overview
 
+This project is designed to showcase how machine learning can assist in healthcare decision-making. Users input basic health metrics (such as glucose levels, BMI, insulin levels, etc.), and the system predicts the risk of diabetes in real time.
+
+It is an *end-to-end ML web app*:
+- ✅ Data preprocessing and feature scaling
+- ✅ Model training and serialization
+- ✅ Flask backend API
+- ✅ Frontend for user interaction
+- ✅ JSON-based prediction responses
+- ✅ Deployed online for real-world access
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage Screenshot](images/homepage.jpg)
+
+### 🧠 Prediction Result
+![Prediction Screenshot](images/result.jpg)
+
+---
+
+## 🧠 Features
+
+- 🧬 *Machine Learning Model*: Built using scikit-learn and trained on the PIMA Diabetes Dataset.
+- 🔍 *Feature Scaling*: Preprocessed inputs for improved accuracy.
+- 🧑‍⚕ *Interactive Frontend*: Clean and responsive HTML/CSS/JS interface for easy data input.
+- ⚡ *Fast Inference API*: Flask backend returns predictions in milliseconds.
+- ☁ *Deployment-Ready*: Deployed on [Render](https://render.com) with a simple Procfile.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer             | Technologies Used                                   |
+|------------------|------------------------------------------------------|
+| *Frontend*     | HTML5, CSS3, Bootstrap, JavaScript                  |
+| *Backend*      | Python, Flask                                       |
+| *ML / Data*    | scikit-learn, pandas, numpy, joblib                 |
+| *Deployment*   | Render, Gunicorn                                    |
+
+---
+
+## 📂 Project Structure
+diabetes-prediction-webapp/
+├─ app.py # Flask backend and API logic
+├─ requirements.txt # Python dependencies
+├─ scaler.pkl # Feature scaler for preprocessing
+├─ diabetes_model.pkl # Serialized trained model
+├─ templates/
+│ └─ index.html # Frontend page
+├─ static/
+│ ├─ css/
+│ │ └─ style.css # Styling
+│ └─ js/
+│ └─ script.js # Frontend interactivity
+└─ Procfile # Deployment config for Render 
+
+---
+
+## 📊 How It Works
+
+1. *User Inputs:* Health metrics such as:
+   - Glucose
+   - BMI
+   - Insulin level
+   - Blood pressure
+   - Age, etc.
+
+2. *Backend Processing:*
+   - Inputs are preprocessed and scaled using StandardScaler.
+   - The trained ML model (RandomForestClassifier) predicts the outcome.
+
+3. *Prediction:*
+   - ✅ “Diabetic 🩺” — if the model predicts 1  
+   - ✅ “Not Diabetic ✅” — if the model predicts 0
+
+4. *Response:* JSON is sent back to the frontend and displayed instantly.
+
+---
+
+## ⚙ Installation & Local Setup
+
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Emmanoel24/diabetes-prediction-webapp.git
 cd diabetes-prediction-webapp
-python -m venv venv
-source venv/bin/activate       # (Mac/Linux)
-venv\Scripts\activate          # (Windows)
-pip install -r requirements.txt
-python train_model.py
-python app.py
-
-
-
----
-
-## Author
-
-*Moyinoluwa Idowu*  
-📧 moyinoluwa.idowu24@gmail.com  
-🔗 [GitHub-(https://github.com/Emmanoel24)]
