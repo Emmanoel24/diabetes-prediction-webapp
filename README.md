@@ -96,3 +96,10 @@ diabetes-prediction-webapp/
 ```bash
 git clone https://github.com/Emmanoel24/diabetes-prediction-webapp.git
 cd diabetes-prediction-webapp
+
+
+✨ Author
+
+👤 Moyinoluwa Idowu
+📍 Lagos, Nigeria
+📧 Moyinoluwa.idowu24@gmail.com
