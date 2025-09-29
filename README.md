@@ -24,10 +24,10 @@ It is an *end-to-end ML web app*:
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage Screenshot](images/homepage.jpg)
+![Homepage Screenshot](images/result.jpg)
 
 ### 🧠 Prediction Result
-![Prediction Screenshot](images/result.jpg)
+![Prediction Screenshot](images/homepage.jpg)
 
 ---
 
